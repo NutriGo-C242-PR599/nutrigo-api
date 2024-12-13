@@ -49,6 +49,8 @@ To get started with the API, follow these steps:
             - `sodium`: number
             - `protein`: number
     + Response: JSON object with product data
+* **GET /api/v1/products**: Get all products
+    + Response: JSON array of product data
 * **GET /api/v1/products/{barcode}**: Get a product by barcode
     + Path Parameters:
         - `barcode`: string (required)
