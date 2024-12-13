@@ -1,0 +1,28 @@
+{
+  "name": "nutrigo-api",
+  "version": "1.0.0",
+  "description": "Backend API for the Nutrigo App, providing endpoints for nutrition education.",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@google-cloud/secret-manager": "^5.6.0",
+    "@hapi/hapi": "^21.3.12",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.0.3"
+  }
+}
